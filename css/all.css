@@ -1,0 +1,232 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+  font-size: 100%;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+/*...................*/
+.wrap {
+  max-width: 1920px;
+  text-align: center;
+  margin: auto;
+  width: 100%;
+  height: auto;
+  font-family: "微軟正黑體", sans-serif;  
+}
+.clearfix{
+  clear: both;
+}
+/*...................*/
+.header{
+  float: left;
+  width: 100%;
+  height: 550px;
+  color: #ffffff;
+  background-image: url("../img/background.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% auto ;
+  position: relative;
+}
+.header h1{
+  font-size: 36px;
+  margin:80px 0 80px 0;
+}
+.night-marcket-button{
+  width: 80%;
+  margin:10px 0 0 10%;
+  height: 200px;
+  color: #ffffff;
+}
+.night-marcket-button h2{
+  font-size: 20px;
+}
+.night-marcket-button ul{
+  padding-top: 35px;
+}
+.night-marcket-button li{
+  color:#ffffff;
+  float: left;
+  padding:10px 20px 10px 20px;
+  display: block;
+  border-radius:5px;
+  margin: 20px 0 0 7.4%;
+  border: 0.5px solid white;
+  background-color:   rgba(0, 0, 0, 0.8);
+}
+.area:hover{
+   background-color: #2f0000;
+
+}
+.night-marcket{
+  position: relative;
+
+}
+.night-market div{
+  text-align: left;
+  color:#ffffff;
+  overflow: hidden;
+  transition: height 0.5s;
+}
+.night-market ul{
+  background-color:   rgba(0, 0, 0, 0.6);
+}
+.night-market li{
+  margin-bottom: 30px;
+}
+.createchart{
+  z-index: 120;
+  display: block;
+  background-color:   rgba(0, 0, 0, 0.8);
+  color: #ffffff;
+  padding: 5px 5px 5px 5px;
+  width: 8%;
+  position: absolute;
+  bottom: 30px;
+  right: 46%;
+  border:0.5px solid #ffffff;
+  border-radius:3px;
+}
+.createchart:hover{
+  background-color: #2f0000;
+}
+@media only screen and (max-width: 1680px) {
+  .night-marcket-button li{
+    margin: 20px 0 0 6.8%;
+  }
+}
+@media only screen and (max-width: 1400px) {
+  .night-marcket-button li{
+    margin: 20px 0 0 5.5%;
+  }
+}
+@media only screen and (max-width: 1280px) {
+  .night-marcket-button li{
+    margin: 20px 0 0 5%;
+  }
+}
+/*------------------------------*/
+.content{
+  float: left;
+}
+.taipeimap{
+  height: auto;
+  display: flex;
+ 
+  transition: height 1s;
+  overflow: hidden;
+}
+.taipeimap-img{
+  float: left;
+  margin: 30px 0 5px 15%;
+  width: 20%; 
+}
+.night-marcket-num{
+  float: left;
+  margin: 30px;
+}
+.night-marcket-num li{
+  margin-top:5px;
+}
+.num4{
+  float: left;
+  width: 8px;
+  height: 8px;
+  background-color: #139A5F;
+}
+.num3{
+  float: left;
+  width: 8px;
+  height: 8px;
+  background-color: #59BA8E;
+}
+.num2{
+  float: left;
+  width: 8px;
+  height: 8px;
+  background-color: #B0D696;
+}
+.num1{
+  float: left;
+  width: 8px;
+  height: 8px;
+  background-color: #ECF1CB;
+}
+.num0{
+  float: left;
+  width: 8px;
+  height: 8px;
+  background-color: #FEFEFE;
+}
+#chart_div{
+  float: left;
+  margin-left:100px;
+}
+.chartbar-content{
+  float: left;
+  display: none;
+  padding: 50px;
+}
+#chart_div1{
+  width: 1000px;
+  height: 500px;
+  float: left;
+}
+#change-chart{
+  margin-right: 50%;
+}
+/*------------------------------*/
+.footer{
+  width: 100%;
+  float: left;  
+  padding:30px 0 30px 0; 
+  text-align: center;
+  background-color: #000000;
+  color: #ffffff;
+}

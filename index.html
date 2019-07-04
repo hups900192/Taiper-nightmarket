@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>台北市夜市攤販數量統計網</title>
+	<link rel="stylesheet" href="css/all.css">
+
+	
+	<script src="js/jquery-2.2.3.min.js"></script>
+</head>
+<body>
+	<div class="wrap">
+		<div class="header">
+			<h1>台北市夜市攤販數量統計2019</h1>
+			<div class="night-marcket-button">
+				<h2>行政區夜市選擇</h2>
+				<ul class="night-marcket-area" id="night-marcket-area">
+					<li class="area1">萬華區</li>
+					<li class="area2">大同區</li>
+					<li class="area3">文山區</li>
+					<li class="area4">松山區</li>
+					<li class="area5">大安區</li>
+					<li class="area6">士林區</li>
+					<li class="area7">中山區</li>
+				</ul>
+			</div>
+			<input type="button" value="比對夜市" class="createchart" href="#">
+		</div>
+		<div class="night-market">		
+		</div>
+		<div class="content">
+			<div class="taipeimap">
+				<div class="taipeimap-img">
+					<img src="img/taipeimap.png">
+				</div>
+				<ul class="night-marcket-num">夜市數		
+					<li>
+						<div class="num4"></div>4
+						<div class="clearfix"></div>
+					</li>
+					<li>
+						<div class="num3"></div>3
+						<div class="clearfix"></div>
+					</li>
+					<li>
+						<div class="num2"></div>2
+						<div class="clearfix"></div>
+					</li>
+					<li>
+						<div class="num1"></div>1
+						<div class="clearfix"></div>
+					</li>
+						<li>
+							<div class="num0"></div>0
+							<div class="clearfix"></div>
+							
+						</li>
+					</ul>
+					<div id="chart_div"></div>
+			</div>
+			<div class="night-marcket">
+			</div>
+		</div>
+		<div class="chartbar-content">
+			<button id="change-chart">Change to Classic</button>
+    		<div id="chart_div1"></div>
+		</div>
+		<div class="footer">
+			<h3>台北市夜市資訊網</h3>
+			<h4>TaipeiCity</h4>
+		</div>
+	</div>
+	<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+	<script src="js/all.js"></script>
+</body>
+</html>
