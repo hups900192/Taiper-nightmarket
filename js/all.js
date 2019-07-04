@@ -235,7 +235,7 @@ google.charts.setOnLoadCallback(drawChart);
     data.addRows(piechartlist);
     // Set chart options
     var options = {'title':'台北市行政區夜市占比',
-                   'width':550,
+                   'width':600,
                    'height':450};
     // Instantiate and draw our chart, passing in some options.
     var chart = new google.visualization.PieChart(document.getElementById('chart_div'));

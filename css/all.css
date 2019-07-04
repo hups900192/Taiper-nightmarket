@@ -151,7 +151,15 @@ img {
     margin: 20px 0 0 5%;
   }
 }
-@media only screen and (max-width: 1080px) {
+@media only screen and (max-width: 1200px) {
+  .night-marcket-button li{
+    margin: 20px 0 0 4%;
+  }
+  .createchart{
+    bottom: 80px;
+  }
+}
+@media only screen and (max-width: 1024px) {
   .night-marcket-button li{
     margin: 20px 0 0 3.5%;
   }
@@ -159,7 +167,11 @@ img {
     bottom: 120px;
   }
 }
-
+@media only screen and (max-width: 1024px) {
+  .night-marcket-button li{
+    margin: 20px 0 0 3%;
+  }
+}
 /*------------------------------*/
 .content{
   float: left;
