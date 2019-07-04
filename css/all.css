@@ -141,7 +141,7 @@ img {
     margin: 20px 0 0 6.8%;
   }
 }
-@media only screen and (max-width: 1400px) {
+@media only screen and (max-width: 1500px) {
   .night-marcket-button li{
     margin: 20px 0 0 5.5%;
   }
@@ -151,14 +151,22 @@ img {
     margin: 20px 0 0 5%;
   }
 }
+@media only screen and (max-width: 1080px) {
+  .night-marcket-button li{
+    margin: 20px 0 0 3.5%;
+  }
+  .createchart{
+    bottom: 120px;
+  }
+}
+
 /*------------------------------*/
 .content{
   float: left;
 }
 .taipeimap{
-  height: auto;
+  height: 550px;
   display: flex;
- 
   transition: height 1s;
   overflow: hidden;
 }
@@ -206,7 +214,7 @@ img {
 }
 #chart_div{
   float: left;
-  margin-left:100px;
+  margin-left:10%;
 }
 .chartbar-content{
   float: left;
@@ -220,6 +228,11 @@ img {
 }
 #change-chart{
   margin-right: 50%;
+}
+@media only screen and (max-width: 1080px) {
+  .taipeimap-img{
+    width: 550px;
+  }
 }
 /*------------------------------*/
 .footer{
